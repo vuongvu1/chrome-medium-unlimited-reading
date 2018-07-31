@@ -20,7 +20,7 @@ var fetchMemberContent = () => fetch(document.location)
   .then(newContent => $('main').html(newContent));
 
 $(document).ready(function(){
-  console.log(isMemberPreview())
+  // console.log(isMemberPreview())
   if(isMemberPreview()) {
     fetchMemberContent().then($('main + aside').hide());
   }
