@@ -95,7 +95,9 @@
       "https://writingcooperative.com/*",
       "https://writingcooperative.com/*/*",
       "https://itnext.io/*",
-      "https://itnext.io/*/*"
+      "https://itnext.io/*/*",
+      "https://medium.com/*",
+      "https://medium.com/*/*"
     ]
   }],
   "icons": {
